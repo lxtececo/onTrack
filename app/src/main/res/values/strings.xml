@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OnTrack</string>
+    <string name="title_activity_on_track_lcservice">OnTrack</string>
+    <string name="action_stop">Stop</string>
+    <string name="train_id">Train ID</string>
+    <string name="scheduled_time">Scheduled Time</string>
+    <string name="seat_id">Seat ID</string>
+
+</resources>

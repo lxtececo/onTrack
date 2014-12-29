@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="@dimen/card_margin"
+    tools:context=".OnTrackLCService"
+    android:id="@+id/main">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/train_id"
+        android:id="@+id/train_id_label" />
+
+    <TextView
+        android:id="@+id/train_id_value"
+        android:layout_width="249px"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/scheduled_time"
+        android:layout_below="@+id/train_id_label"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scheduled_time" />
+
+    <TextView
+        android:id="@+id/scheduled_time_value"
+        android:layout_width="249px"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40px"
+        android:layout_alignTop="@+id/scheduled_time"
+        android:layout_alignStart="@+id/train_id_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seat_id"
+        android:id="@+id/seat_id_label"
+        android:layout_below="@+id/scheduled_time"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/seat_id_value"
+        android:layout_width="249px"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40px"
+        android:layout_alignTop="@+id/seat_id_label"
+        android:layout_alignStart="@+id/scheduled_time_value" />
+</RelativeLayout>
